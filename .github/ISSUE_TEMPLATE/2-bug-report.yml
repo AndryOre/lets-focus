@@ -9,14 +9,7 @@ body:
     attributes:
       value: |
         Thank you for taking the time to report a bug. Your feedback helps us improve the quality of our product!
-  - type: input
-    id: contact
-    attributes:
-      label: Discord Username
-      description: How can we get in touch with you if we need more information?
-      placeholder: Please provide your Discord sername or other contact details
-    validations:
-      required: false
+
   - type: dropdown
     id: severity
     attributes:
@@ -28,6 +21,7 @@ body:
         - High
     validations:
       required: true
+
   - type: textarea
     id: what-happened
     attributes:
@@ -37,6 +31,7 @@ body:
       value: 'A bug happened!'
     validations:
       required: true
+
   - type: dropdown
     id: os
     attributes:
@@ -50,6 +45,7 @@ body:
         - Android
     validations:
       required: true
+
   - type: dropdown
     id: browsers
     attributes:
@@ -65,6 +61,7 @@ body:
         - Other (please specify in the bug description)
     validations:
       required: true
+
   - type: dropdown
     id: browser-version
     attributes:
@@ -77,17 +74,10 @@ body:
         - Specific version (please specify in the bug description)
     validations:
       required: true
+
   - type: textarea
     id: logs
     attributes:
       label: Relevant Log Output
       description: Please copy and paste any relevant log output. This will be automatically formatted into code, so there is no need to include backticks.
       render: zsh
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Zyruks/astro-starter/blob/main/docs/CODE_OF_CONDUCT.md)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true

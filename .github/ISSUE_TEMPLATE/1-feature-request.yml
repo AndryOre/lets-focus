@@ -29,27 +29,9 @@ body:
       required: true
 
   - type: textarea
-    id: media-proof
-    attributes:
-      label: Describe alternatives you've considered
-      description: A clear and concise description of any alternative solutions or features you've considered.
-      placeholder: Describe any alternative solutions you've considered
-    validations:
-      required: false
-
-  - type: textarea
     id: additional-context
     attributes:
       label: Additional context
       description: Add any other context or additional information about the problem or feature here.
     validations:
       required: false
-
-  - type: checkboxes
-    id: terms
-    attributes:
-      label: Code of Conduct
-      description: By submitting this issue, you agree to follow our [Code of Conduct](https://github.com/Zyruks/astro-starter/blob/main/docs/CODE_OF_CONDUCT.md)
-      options:
-        - label: I agree to follow this project's Code of Conduct
-          required: true

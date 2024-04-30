@@ -1,14 +1,3 @@
-<!--📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛
-
-
-Thank you for submitting an issue. To help us address your problem as quickly and effectively as possible, please fill out the following form. If applicable, please search open and closed issues before submitting a new one.
-
-To make our work more accessible, we recommend you to choose any of our available issue templates rather than using a blank template.
-
-Before you proceed, please take a moment to read our Rules of Conduct at this repository's `.github/CODE_OF_CONDUCT.md`.
-
-📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛📛-->
-
 # **Issue Report**
 
 ## **Description**
