@@ -22,17 +22,23 @@ const { title } = Astro.props;
 
 		<!-- Open Graph / Facebook -->
 		<meta property="og:type" content="website" />
-		<meta property="og:url" content={Astro.url} />
+		<meta property="og:url" content={import.meta.env.PUBLIC_URL} />
 		<meta property="og:title" content={title} />
 		<meta property="og:description" content="Let's Focus: Less distraction, more action" />
-		<meta property="og:image" content={`${import.meta.env.PUBLIC_URL}/og.png`} />
+		<meta
+			property="og:image"
+			content="https://res.cloudinary.com/dhwxnbnaj/image/upload/f_auto,q_auto/v1/Let's%20Focus/aq9v5ms6tav9eqvx51jf"
+		/>
 
 		<!-- Twitter -->
 		<meta property="twitter:card" content="summary_large_image" />
-		<meta property="twitter:url" content={Astro.url} />
+		<meta property="twitter:url" content={import.meta.env.PUBLIC_URL} />
 		<meta property="twitter:title" content={title} />
 		<meta property="twitter:description" content="Let's Focus: Less distraction, more action" />
-		<meta property="twitter:image" content={`${import.meta.env.PUBLIC_URL}/og.png`} />
+		<meta
+			property="twitter:image"
+			content="https://res.cloudinary.com/dhwxnbnaj/image/upload/f_auto,q_auto/v1/Let's%20Focus/aq9v5ms6tav9eqvx51jf"
+		/>
 	</head>
 	<body>
 		<slot />
