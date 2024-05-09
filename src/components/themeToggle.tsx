@@ -20,7 +20,7 @@ export const ThemeToggle = (): JSX.Element => {
 
   return (
     <Card className="gap-2 px-4 py-3">
-      <ToggleGroup type="single">
+      <ToggleGroup type="single" value={theme}>
         <ToggleGroupItem
           value="light"
           className="aspect-square p-0"
@@ -28,13 +28,13 @@ export const ThemeToggle = (): JSX.Element => {
         >
           <Sun className="h-6 w-6" />
         </ToggleGroupItem>
-        <ToggleGroupItem
+        {/* <ToggleGroupItem
           value="system"
           className="aspect-square p-0"
           onClick={() => setThemeState('system')}
         >
           <Monitor className="h-6 w-6" />
-        </ToggleGroupItem>
+        </ToggleGroupItem> */}
         <ToggleGroupItem
           value="dark"
           className="aspect-square p-0"
