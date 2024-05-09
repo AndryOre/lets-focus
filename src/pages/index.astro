@@ -2,12 +2,14 @@
 import Layout from '../layouts/Layout.astro';
 import '@/styles/globals.css';
 import { Image } from 'astro:assets';
-import { Button, Card, CardDescription, CardHeader, CardTitle } from '@/components/';
+import { Button, Card, CardDescription, CardHeader, CardTitle, ThemeToggle } from '@/components/';
 ---
 
 <Layout title="Let's Focus - Coming Soon">
 	<main class="flex w-full flex-col items-center gap-8 p-8 md:h-screen md:justify-between md:gap-0">
 		<Image src="/assets/zap.svg" alt="Logo" width="1" height="1" class="h-24 w-auto md:h-32" />
+
+		<ThemeToggle client:load />
 
 		<div class="flex text-center font-bold">
 			<Image src="/assets/dot.svg" alt="Logo" width="36" height="36" />
